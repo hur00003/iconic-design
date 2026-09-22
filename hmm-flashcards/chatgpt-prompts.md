@@ -42,6 +42,12 @@ When I send a card, generate the image right away without asking questions. If y
 Card #1 人 (person): RuPaul seen from behind, power-marching up a steep cobbled Aberdeen high street lined with grey granite buildings (Tone 2, rising). Legs spread in a wide inverted V: the left leg curves down-left to a pointed stiletto (stroke 丿), the right leg starts just below the hip and sweeps down-right to a flared platform heel (stroke ㇏). Dark plum tights. Arms raised in triumph, sequined cape with emerald lining billowing up and to the right.
 ```
 
+### Card #2: 大 dà
+Upload a photo of Denzil first, as a likeness reference.
+```
+Card #2 大 (big): Denzil (use the uploaded reference photo for their likeness), facing the viewer, stomping DOWN wide stone steps on the Vltava riverbank in Prague (Tone 4, falling). Both arms stretched straight out sideways at shoulder height in a boastful "the fish was THIS big!" gesture, holding a long wooden oar perfectly level across both hands (stroke 一). The head pokes above the oar, and the head, spine and left leg form one continuous line sweeping down-left to a pointed plum stiletto (stroke 丿). The right leg branches from just under the arms and sweeps down-right to a flared plum platform heel (stroke ㇏). Long legs, short torso, a red scarf flying. Below, a splash in the river and a swan diving downward. Moored wooden rowing boats and a misty Prague skyline at the edges. Keep the centre pale and uncluttered. No text anywhere.
+```
+
 ---
 
 ## 3. Fill-in template for new cards
