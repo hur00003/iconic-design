@@ -5,6 +5,7 @@
 > - **Hanzi typeface:** a Kaiti (楷体) face, such as *LXGW WenKai* or *AR PL UKai*. Kaiti keeps the brush entry and exit shapes (the 丿 taper, the ㇏ flick) that the artwork traces. Sans-serif fonts flatten them.
 > - **Latin typeface:** a humanist serif for titles, such as *Cormorant Garamond*. Use a clean sans for data lines, such as *Inter*.
 > - **Tone colour band:** a thin strip down the back's left edge. T1 = silver, **T2 = green (rising)**, T3 = amber, T4 = red, neutral = grey.
+> - **Cross-card rule:** each card stands on its own. Another card's actor or prop appears **only** when that card's character is a component of this one (e.g. 人 inside 大 → RuPaul's heels). No other callbacks between cards.
 > - **Production tip:** AI image models can't render Hanzi reliably. Generate the illustration **without text**, then place the real vector glyph over it in Figma, Affinity or Canva. The prompts below include `--no text`.
 
 ---

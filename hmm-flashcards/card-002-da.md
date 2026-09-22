@@ -58,7 +58,6 @@ Card #2 大 (big): Denzil (use the uploaded reference photo for their likeness),
 
 **Memory hooks:**
 - **人 + 一 = 大:** a person stretching their arms wide to show how big something is.
-- **Contrast with Card #1:** RuPaul's arms go **up** (人, person). Denzil's arms go **out** (大, big).
 - **Stroke order:** arms and oar first (一), then head-to-left-foot (丿), then the right leg (㇏).
 - **Future prop:** when 大 appears inside later characters (太, 天, 夫, 美), bring on Denzil's **oar**.
 
@@ -68,4 +67,4 @@ Card #2 大 (big): Denzil (use the uploaded reference photo for their likeness),
 |---|---|---|
 | **大**学 | **dà**xué | university |
 | **大**家 | **dà**jiā | everyone |
-| **大**人 | **dà**rén | adult (links back to Card #1, 人) |
+| **大**人 | **dà**rén | adult |
