@@ -15,7 +15,7 @@
 
 # 人
 
-Centred and set in Kaiti. The glyph fills about 70% of the card height. Sumi ink black (#1B1B1F) at 85% opacity, in a **Multiply** blend mode so the watercolour shows through the strokes.
+Set in Kaiti, about 17% of the card height, centred on the calm cobblestone area at the bottom of the card, on a soft paper-coloured wash. Sumi ink black (#1B1B1F). The actor's legs already form the full-size 人, so the printed glyph confirms the shape instead of covering it. (A full-size overlay was tested: its thin strokes land in the gap between the legs and compete with them. See `art/001-ren-front-mockup.png`.)
 
 ### Artwork Description & Overlay Blueprint
 
