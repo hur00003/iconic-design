@@ -249,6 +249,28 @@ for row, hz, sylls in word_rows:
         tones.append(str(tone))
     voc.cell(row, 5, " · ".join(keys)).font = BODY_FONT
     voc.cell(row, 6, "-".join(tones)).font = BODY_FONT
+# Actor / Location / Tone area per character, looked up live from the HMM sheets.
+def lookup(sheet, key_col, val_col, key, extra=""):
+    x = f'INDEX({sheet}!{val_col},MATCH("{key}",{sheet}!{key_col},0){extra})'
+    return f'IFERROR(IF({x}="","?",{x}),"?")'
+
+
+for col, name in ((7, "Actor"), (8, "Location"), (9, "Tone area")):
+    cell = voc.cell(1, col, name)
+    cell.font, cell.fill = HEADER_FONT, HEADER_FILL
+voc["G1"].comment = Comment("One entry per character, separated by ·. '?' = not yet assigned in the HMM Actors / HMM Locations sheets.", "Claude")
+for row, hz, sylls in word_rows:
+    parts = [parse(s) for s in sylls if s != "r"]
+    terms = {
+        7: [lookup(A, "$A:$A", "$B:$B", ini) for ini, _, _ in parts],
+        8: [lookup(L, "$A:$A", "$B:$B", fin) for _, fin, _ in parts],
+        9: [lookup(L, "$A:$A", "$C:$G", fin, f",{tone}") for _, fin, tone in parts],
+    }
+    for col, t in terms.items():
+        voc.cell(row, col, "=" + '&" · "&'.join(t)).font = BODY_FONT
+for col, w in (("G", 34), ("H", 40), ("I", 48)):
+    voc.column_dimensions[col].width = w
+voc.auto_filter.ref = f"A1:I{voc.max_row}"
 voc.column_dimensions["E"].width = 44
 voc.column_dimensions["F"].width = 9
 voc["E1"].comment = Comment("Each character's reading in this word, with its HMM initial + final.", "Claude")
