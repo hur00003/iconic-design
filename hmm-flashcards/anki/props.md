@@ -22,7 +22,7 @@ Each component always appears as the same object, on every card. Swap any prop t
 | 辶 | walk / move | a Segway |
 | 文 | writing | a scroll |
 | 也 | also | a coiled snake |
-| 戈 | halberd | a halberd |
+| 戈 | dagger-axe (weapon) | a pickaxe |
 | 乞 | beg | a beggar's tin cup |
 | 匃 | wrap / beggar | a sleeping bag |
 | 乛 | hook | a coat hook |

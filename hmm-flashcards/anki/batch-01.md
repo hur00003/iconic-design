@@ -20,9 +20,9 @@ On the **Vltava riverbank** in **Praha**, **Denzil** struts down the steps in pl
 
 ### 3. 我 wǒ — I; me
 **Willy Wonka** · Costco · Checkout line · Tone 3 (dipping)  
-*Props:* foam hand (手) + halberd (戈)
+*Props:* foam hand (手) + pickaxe (戈)
 
-Stuck in the **Costco checkout line**, **Willy Wonka** waves a giant foam hand and swings a halberd over the crowd: "**ME**! It's **MY** turn!"
+Stuck in the **Costco checkout line**, **Willy Wonka** waves a giant foam hand and swings a pickaxe over the crowd: "**ME**! It's **MY** turn!"
 
 *Words:* 我们
 
