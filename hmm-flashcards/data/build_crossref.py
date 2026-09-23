@@ -113,6 +113,12 @@ if os.path.exists(_add):
             else:
                 locations.append(rec)
 actors = [r for r in hmm["Names"].iter_rows(min_row=2, values_only=True) if r[0]]
+# Actors decided since the HMM workbook was exported (actor_additions.csv).
+_act = os.path.join(os.path.dirname(os.path.abspath(__file__)), "actor_additions.csv")
+extra_actors = {}
+if os.path.exists(_act):
+    with open(_act, newline="", encoding="utf-8") as f:
+        extra_actors = {rec[0]: rec[1] for rec in csv.reader(f) if rec and rec[0] != "Initial"}
 
 # ---------- per-character readings from the vocabulary list ----------
 wb = openpyxl.load_workbook(VOCAB_IN)
@@ -170,8 +176,9 @@ for name in ("HMM Actors", "HMM Locations"):
 
 wa = wb.create_sheet("HMM Actors")
 header(wa, ["Initial", "Actor", "Notes"], [10, 30, 60])
-actor_rows = [(s, a, "") for s, a, _ in actors]
-actor_rows.append(("Ø", None, "Actor for syllables with no initial (ài, ān, ér, ō …). Fill in."))
+actor_rows = [(s, extra_actors.get(s, a), "") for s, a, _ in actors]
+if not any(s == "Ø" for s, _, _ in actor_rows):
+    actor_rows.append(("Ø", extra_actors.get("Ø"), "Actor for syllables with no initial (ài, ān, ér, ō …)."))
 for s, a, note in actor_rows:
     if s == "XI":
         note = "Not used by this cross-reference: xi- syllables go to X (Cher). Remove or repurpose."
