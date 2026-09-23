@@ -18,7 +18,6 @@ Each component always appears as the same object, on every card. Swap any prop t
 | 女 | woman | a wedding veil |
 | 子 | child | a baby in a car seat |
 | 宀 | roof | a pitched roof |
-| 土 | earth | a pot of soil |
 | 辶 | walk / move | a Segway |
 | 文 | writing | a scroll |
 | 也 | also | a coiled snake |
@@ -34,5 +33,26 @@ Each component always appears as the same object, on every card. Swap any prop t
 | 耂 | old | a walking cane |
 | 匕 | spoon / dagger | a spoon |
 | 𤴓 | foot | a hiking boot |
+| 白 | white | a can of white paint |
+| 勺 | ladle | a soup ladle |
+| 亅 | hook | a fishing hook |
+| 尔 | you (old form) | a hand mirror |
+| 亠 | lid | a top hat |
+| 爫 | claw | a claw-machine claw |
+| 冖 | cover | a bedsheet |
+| 友 | friend | a friendship bracelet |
+| 厶 | private | a traffic cone |
+| 讠 | speech | a microphone |
+| 兑 | exchange | a currency-exchange booth |
+| 豕 | pig | a pig |
+| 云 | cloud | a cloud |
+| 丩 | tangle | a tangled rope |
+| 斤 | axe | a hatchet |
+| 木 | tree | a tree |
+| 心 / 忄 | heart | a beating heart |
+| 与 | give | a gift box |
+| 攵 | tap / strike | a whip |
+| 主 | master / lamp | a candle lamp |
+| 土 | earth | a pot of soil |
 
-**Whole-character pictographs** (used as one image, not split into parts): 来 = a wheat sheaf · 能 = a bear · 高 = a pagoda tower · 生 = a sprouting seedling · 十 = a first-aid cross · 八 = chopsticks spread apart · 上 = a flag raised on a pole.
+**Whole-character pictographs** (used as one image, not split into parts): 不 = a no-entry barrier · 五 = a starfish · 七 = a crowbar · 九 = a flexed arm · 水 = a splashing fountain · 书 = an open book · 年 = a wall calendar · 小 = a fishing hook between two raindrops · 下 = a flag hanging below an oar · 来 = a wheat sheaf · 能 = a bear · 高 = a pagoda tower · 生 = a sprouting seedling · 十 = a first-aid cross · 八 = chopsticks spread apart · 上 = a flag raised on a pole.
