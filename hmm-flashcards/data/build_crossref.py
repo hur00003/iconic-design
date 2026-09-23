@@ -117,7 +117,7 @@ for row in range(2, voc.max_row + 1):
     hz = [c for c in word if is_hanzi(c)]
     word_rows.append((row, hz, sylls))
     if len(hz) == 1 and tone_of(sylls[0]) != 5:
-        standalone[hz[0]] = sylls[0]
+        standalone.setdefault(hz[0], sylls[0])  # first (lowest HSK) entry wins
     for c, s in zip(hz, sylls):
         if s != "r":
             readings[c].append(s)
