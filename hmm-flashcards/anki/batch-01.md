@@ -134,7 +134,7 @@ At the **Karlštejn gatehouse**, **Channing Tatum** shakes a beggar's tin cup. C
 **Hugh Jackman** · Jacob's parents' place · Living room · Tone 1 (flat)  
 *Props:* wind-up teeth (口) + sun lamp (日) + sleeping bag (匃)
 
-In the **living room at Jacob's parents' place**, **Hugh Jackman** lies in a sleeping bag under a sun lamp, parched, while wind-up teeth **drink** his lemonade.
+In the **living room at Jacob's parents' place**, **Hugh Jackman** lies in a sleeping bag under a sun lamp, parched, while wind-up teeth **drink** the lemonade.
 
 *Words:* 喝水
 
@@ -198,7 +198,7 @@ On **Charles Bridge**, **Brenda Felix** balances a pair of giant chopsticks, spr
 **Zac Efron** · Karlštejn Castle · Chapel of the Holy Cross · Tone 3 (dipping)  
 *Props:* baby car seat (子)
 
-In the **Chapel of the Holy Cross** at **Karlštejn**, **Zac Efron** gently sets down a baby in a car seat: his godchild's christening.
+In the **Chapel of the Holy Cross** at **Karlštejn**, **Zac Efron** gently sets down a baby in a car seat: a godchild's christening.
 
 *Words:* 儿子 · 杯子
 
