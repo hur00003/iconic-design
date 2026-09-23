@@ -95,7 +95,23 @@ def parse(syl):
 
 # ---------- read the HMM grid ----------
 hmm = openpyxl.load_workbook(HMM_IN)
-locations = [r for r in hmm["Locations"].iter_rows(min_row=2, values_only=True) if r[0]]
+locations = [list(r) + [None] for r in hmm["Locations"].iter_rows(min_row=2, values_only=True) if r[0]]
+# Grid slots decided since the HMM workbook was exported (grid_additions.csv, next to this script).
+import csv, os
+_add = os.path.join(os.path.dirname(os.path.abspath(__file__)), "grid_additions.csv")
+if os.path.exists(_add):
+    with open(_add, newline="", encoding="utf-8") as f:
+        for rec in csv.reader(f):
+            if not rec or rec[0] == "Final":
+                continue
+            rec = (rec + [None] * 7)[:7]
+            rec = [x or None for x in rec]
+            for loc in locations:
+                if loc[0] == rec[0]:
+                    loc[:] = [a if a else b for a, b in zip(rec, loc)]
+                    break
+            else:
+                locations.append(rec)
 actors = [r for r in hmm["Names"].iter_rows(min_row=2, values_only=True) if r[0]]
 
 # ---------- per-character readings from the vocabulary list ----------
@@ -171,7 +187,7 @@ header(wl, ["Final", "Set (Location)", "Tone 1 area", "Tone 2 area", "Tone 3 are
             "Tone 4 area", "Neutral tone area"], [28, 30, 32, 32, 32, 32, 26])
 known = set()
 for r in locations:
-    wl.append(list(r[:6]) + [None])
+    wl.append(list(r[:7]))
     known.add(r[0])
 
 needed = Counter()
